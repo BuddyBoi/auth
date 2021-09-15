@@ -23,6 +23,7 @@ int main()
 {
 	if (attempt_login())
 	{
+		//Example commands
 		std::cout << "1: " << get_response(COMMAND_MOTD) << std::endl;
 		Sleep(1000);
 		std::cout << "2: " << get_response(COMMAND_VERSION) << std::endl;
