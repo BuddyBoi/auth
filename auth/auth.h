@@ -3,7 +3,7 @@
 #include "webrequest.h"
 #include "util.h"
 
-std::string domain = "http://185.150.119.6";
+std::string domain = "http://127.0.0.1";
 enum COMMANDS
 {
     COMMAND_LOGIN,
@@ -36,7 +36,7 @@ std::string get_role(int role)
     }
 }
 
-std::string admin_key = "92565";
+std::string admin_key = "1234";
 std::string id;
 std::string username;
 std::string password;
